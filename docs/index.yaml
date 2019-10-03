@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  helloworld:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-03T11:17:35.778724236-07:00"
+    description: A helloworld chart for Kubernetes
+    digest: 946d6ea4b9756e6c3eff59170497116a6649ae7b7fd77acdc746d2bb4d6accac
+    name: helloworld
+    urls:
+    - https://helm-hello-world/charts/docs/index.yaml/helloworld-0.0.1.tgz
+    version: 0.0.1
+generated: "2019-10-03T11:17:35.778184352-07:00"
