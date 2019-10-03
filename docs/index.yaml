@@ -3,20 +3,20 @@ entries:
   helloworld:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-03T11:18:22.580065723-07:00"
+    created: "2019-10-03T11:31:48.415097154-07:00"
     description: A helloworld chart for Kubernetes
     digest: 2e7c4a95b6228e3e4bc34cfcbfb633caf32110c9448ab203227f4bbe999f0be5
     name: helloworld
     urls:
-    - https://helm-hello-world/charts/docs/index.yaml/helloworld-0.0.2.tgz
+    - https://helm-hello-world.github.io/charts/helloworld-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-03T11:18:22.579729696-07:00"
+    created: "2019-10-03T11:31:48.414868806-07:00"
     description: A helloworld chart for Kubernetes
     digest: 946d6ea4b9756e6c3eff59170497116a6649ae7b7fd77acdc746d2bb4d6accac
     name: helloworld
     urls:
-    - https://helm-hello-world/charts/docs/index.yaml/helloworld-0.0.1.tgz
+    - https://helm-hello-world.github.io/charts/helloworld-0.0.1.tgz
     version: 0.0.1
-generated: "2019-10-03T11:18:22.579121389-07:00"
+generated: "2019-10-03T11:31:48.414364611-07:00"
