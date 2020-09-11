@@ -19,4 +19,29 @@ entries:
     urls:
     - https://helm-hello-world.github.io/charts/helloworld-0.0.1.tgz
     version: 0.0.1
-generated: 2019-10-19T19:26:43.392607757-07:00
+  helloworld-broken-selector:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-09-11T21:34:51.556665923Z"
+    description: A helloworld chart with a broken selector. The key, `app.kubernetes.io/managed-by`,
+      is fixed, but the value varies with the Helm version. After the chart is migrated
+      from Helm v2 to v3, it cannot be upgraded, because the selector value changes,
+      but a selector is an immutable field.
+    digest: 4d57053a3d62c63697b084b91567e012150d46aecb5958b9a4091d323e4d63f3
+    name: helloworld-broken-selector
+    urls:
+    - https://helm-hello-world.github.io/charts/helloworld-broken-selector-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-09-11T21:34:51.556443171Z"
+    description: A helloworld chart with a broken selector. The key, `app.kubernetes.io/managed-by`,
+      is fixed, but the value varies with the Helm version. After the chart is migrated
+      from Helm v2 to v3, it cannot be upgraded, because the selector value changes,
+      but a selector is an immutable field.
+    digest: 8ddc3c05e4875ebe4e03bdb502f66a8e2574763e16ef8c4eed71fe88ca264ce1
+    name: helloworld-broken-selector
+    urls:
+    - https://helm-hello-world.github.io/charts/helloworld-broken-selector-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-09-11T21:34:51.555623812Z"
